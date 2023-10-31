@@ -32,6 +32,7 @@ function preload() {
 function setup() {
   //create the canvas using the full browser window
   // I am so sorry for using this screen size but I was really low on time to modify it at the last
+
   createCanvas(500, 500);
   imageMode(CENTER)
   startTime = millis();
